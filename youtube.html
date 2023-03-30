@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">7</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/my-channel.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-time">16:29</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-1.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                $8,000 მანქანა vs $80,000 მანქანა - რომელია უფრო ძვირი?
+              </p>
+              <p class="video-author">
+                Hungryman - ჰანგრიმენი
+              </p>
+              <p class="video-stats">
+                166K views &#183; 3 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            <div class="video-time">12:46</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                რა შევუკვეთეთ, რა გამოვიდა? - ჩვენი სამზარეულო დასრულდა
+              </p>
+              <p class="video-author">
+                Giorgi Danelia
+              </p>
+              <p class="video-stats">
+                22K views &#183; 5 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+            <div class="video-time">28:40</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-3.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                უტდ - Nissan 370z - ჩემი პირადი ხაფანგი/ShitBox!
+              </p>
+              <p class="video-author">
+                George Sarishvili
+              </p>
+              <p class="video-stats">
+                108K views &#183; 11 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+            <div class="video-time">18:42</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-4.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Youtuber-ების პირველი ჯახი - C63 AMG vs E90 (Tuned)
+              </p>
+              <p class="video-author">
+                Aleksandre Kherodinashvili
+              </p>
+              <p class="video-stats">
+                71K views &#183; 10 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+            <div class="video-time">19:21</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-5.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Lionel Messi - Overall 2015 - HD
+              </p>
+              <p class="video-author">
+                Channel 007
+              </p>
+              <p class="video-stats">
+                50K views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+            <div class="video-time">18:12</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-6.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Lionel Messi - Overall 2019 - HD
+              </p>
+              <p class="video-author">
+                Creative Productions
+              </p>
+              <p class="video-stats">
+                2.7M views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-7.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Roger Federer: Most Unbelievable Skill Moments!
+              </p>
+              <p class="video-author">
+                Tennis TV
+              </p>
+              <p class="video-stats">
+                2.1M views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+            <div class="video-time">10:55</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-8.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Kobe Bryant's TOP 40 Plays of His NBA Career!
+              </p>
+              <p class="video-author">
+                NBA
+              </p>
+              <p class="video-stats">
+                10M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+            <div class="video-time">3:31</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-9.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Neighbourhood - Softcore (Official Audio)
+              </p>
+              <p class="video-author">
+                The Neighbourhood
+              </p>
+              <p class="video-stats">
+                44M views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+            <div class="video-time">4:41</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-10.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                JAY-Z - Empire State Of Mind ft. Alicia Keys
+              </p>
+              <p class="video-author">
+                JAY-Z
+              </p>
+              <p class="video-stats">
+                112M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+    </main>
+  </body>
+</html>
